@@ -11,7 +11,7 @@ int main()
 	int a,b,c;
 	char operator;
 
-	printf("please enter a expression/n /n");
+	printf("please enter a expression(ex> 1 + 2)/n /n");
 	scanf("%d %c %d",&a,&operator,&b);
 
 	switch(operator)
