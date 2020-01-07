@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int add(int,int);
 int sub(int,int);
@@ -27,4 +27,12 @@ int main(int argc,char* argv[])
 				break;
 	}				
 
+}
+iny sub(int x, int y)
+{
+	return x-y;
+}
+int multi(int x,int y)
+{
+	return x*y;
 }
