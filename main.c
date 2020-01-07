@@ -26,5 +26,13 @@ int main(int argc,char* argv[])
 				c= multi(a,b);
 				break;
 	}				
+int add(x,y){
+	return x+y;
+	
+}
+
+int div(x,y){
+	return x/y;
+}
 
 }
