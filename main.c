@@ -11,7 +11,7 @@ int main()
 	int a,b,c;
 	char operator;
 
-	printf("please enter a expression(ex> 1 + 2)/n /n");
+	printf("please enter a expression(ex> 1 + 2)\n \n");
 
 	scanf("%d %c %d",&a,&operator,&b);
 
@@ -27,7 +27,7 @@ int main()
 				c= multi(a,b);
 				break;
 	}
-	printf("%d %c %d = %d",a,b,operator,c);
+	printf("%d",c);
 }
 int add(int x,int y)
 {
