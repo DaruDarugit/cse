@@ -27,6 +27,7 @@ int main()
 				c= multi(a,b);
 				break;
 	}
+	printf("%d %c %d = %d",a,b,operator,c);
 }
 int add(int x,int y)
 {
