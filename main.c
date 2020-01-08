@@ -13,7 +13,7 @@ int main()
 
 	printf("please enter a expression(ex> 1 + 2)\n \n");
 
-	scanf("%d %c %d",&a,&operator,&b);
+	scanf("%d%c%d",&a,&operator,&b);
 
 	switch(operator)
 	{
